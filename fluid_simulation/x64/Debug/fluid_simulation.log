@@ -1,0 +1,5 @@
+﻿  fluid2d.cpp
+C:\code\fluid_simulation\fluid2d\fluid2d.cpp(14,13): warning C4305: инициализация: усечение из "double" в "float"
+C:\code\fluid_simulation\fluid2d\fluid2d.cpp(26,16): warning C4305: =: усечение из "double" в "float"
+C:\code\fluid_simulation\fluid2d\fluid2d.cpp(45,14): warning C4305: аргумент: усечение из "double" в "float"
+  fluid_simulation.vcxproj -> C:\code\fluid_simulation\x64\Debug\fluid_simulation.exe

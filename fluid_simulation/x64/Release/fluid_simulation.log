@@ -1,0 +1,139 @@
+﻿  Compiling CUDA source file math\Color.cuh...
+  Compiling CUDA source file math\Matrix.cu...
+  Compiling CUDA source file render\2d\Primitive.cu...
+  Compiling CUDA source file render\2d\Mask.cu...
+  Compiling CUDA source file math\3dmath.cu...
+  Compiling CUDA source file math\Face.cu...
+  Compiling CUDA source file math\VectorMath.cu...
+  Compiling CUDA source file render\Graphics.cu...
+  Compiling CUDA source file render\2d\TextureMask.cu...
+  Compiling CUDA source file render\2d\Surface.cu...
+  Compiling CUDA source file system\Window.cu...
+  Compiling CUDA source file math\Vector.cuh...
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Mask.cu.obj "C:\code\fluid_simulation\render\2d\Mask.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\VectorMath.cu.obj "C:\code\fluid_simulation\math\VectorMath.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Graphics.cu.obj "C:\code\fluid_simulation\render\Graphics.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Window.cu.obj "C:\code\fluid_simulation\system\Window.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Surface.cu.obj "C:\code\fluid_simulation\render\2d\Surface.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Matrix.cu.obj "C:\code\fluid_simulation\math\Matrix.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Face.cu.obj "C:\code\fluid_simulation\math\Face.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Primitive.cu.obj "C:\code\fluid_simulation\render\2d\Primitive.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\3dmath.cu.obj "C:\code\fluid_simulation\math\3dmath.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Color.cuh.obj "C:\code\fluid_simulation\math\Color.cuh" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\TextureMask.cu.obj "C:\code\fluid_simulation\render\2d\TextureMask.cu" 
+  
+  C:\code\fluid_simulation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\code\other_librarys\GLEW\glew-2.1.0\include" -I"C:\code\other_librarys\GLFW\glfw-3.4\include" -IC:\code\other_librarys\freetype\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"     --keep-dir fluid_simulation\x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdfluid_simulation\x64\Release\vc143.pdb" -o C:\code\fluid_simulation\fluid_simulation\x64\Release\Vector.cuh.obj "C:\code\fluid_simulation\math\Vector.cuh" 
+C:\code\fluid_simulation\render\2d\Primitive.cu(113): warning #177-D: variable "bg" was declared but never referenced
+    		float4 bg;
+    		       ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\code\fluid_simulation\render\2d\Mask.cu(18): warning #177-D: variable "a" was declared but never referenced
+    		int a = 0;
+    		    ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\code\fluid_simulation\render\2d\Mask.cu(28): warning #177-D: variable "a" was declared but never referenced
+    		int a = 0;
+    		    ^
+  
+C:\code\fluid_simulation\render\2d\Mask.cu(39): warning #177-D: variable "a" was declared but never referenced
+    		int a = 0;
+    		    ^
+  
+C:\code\fluid_simulation\render\2d\Mask.cu(51): warning #177-D: variable "a" was declared but never referenced
+    		int a = 0;
+    		    ^
+  
+C:\code\fluid_simulation\render\2d\Mask.cu(59): warning #177-D: variable "a" was declared but never referenced
+    		int a = 0;
+    		    ^
+  
+C:\code\fluid_simulation\render\Graphics.cu(225): warning #177-D: variable "a" was declared but never referenced
+    				int a = 0;
+    				    ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\code\fluid_simulation\render\Graphics.cu(252): warning #177-D: variable "a" was declared but never referenced
+    				int a = 0;
+    				    ^
+  
+C:\code\fluid_simulation\render\Graphics.cu(262): warning #177-D: variable "a" was declared but never referenced
+    			int a = 0;
+    			    ^
+  
+C:\code\fluid_simulation\render\Graphics.cu(286): warning #177-D: variable "a" was declared but never referenced
+    			int a = 0;
+    			    ^
+  
+  VectorMath.cu
+  Mask.cu
+  Vector.cuh
+  Face.cu
+  TextureMask.cu
+  Color.cuh
+  Primitive.cu
+  Surface.cu
+  3dmath.cu
+  Graphics.cu
+  Matrix.cu
+  tmpxft_00007690_00000000-7_VectorMath.cudafe1.cpp
+  tmpxft_00000834_00000000-7_Vector.cudafe1.cpp
+  tmpxft_00004a90_00000000-7_Face.cudafe1.cpp
+  tmpxft_000093b8_00000000-7_Color.cudafe1.cpp
+  tmpxft_00001818_00000000-7_Primitive.cudafe1.cpp
+  tmpxft_00006b00_00000000-7_TextureMask.cudafe1.cpp
+  tmpxft_00006ce4_00000000-7_Surface.cudafe1.cpp
+  tmpxft_00005c88_00000000-7_3dmath.cudafe1.cpp
+C:\code\fluid_simulation\math\3dmath.cu(67): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  tmpxft_00005498_00000000-7_Mask.cudafe1.cpp
+  tmpxft_00006d04_00000000-7_Matrix.cudafe1.cpp
+  tmpxft_00004b14_00000000-7_Graphics.cudafe1.cpp
+C:\code\fluid_simulation\render\Graphics.cu(29): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(47): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(47): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(58): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(61): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(61): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(139): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(139): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(150): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\code\fluid_simulation\render\Graphics.cu(150): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Window.cu
+  tmpxft_00009918_00000000-7_Window.cudafe1.cpp
+C:\code\fluid_simulation\system\Window.cu(74): warning C4996: 'cudaMemcpyToArray': объявлен deprecate
+  fluid2d.cpp
+C:\code\fluid_simulation\fluid2d\fluid2d.cpp(11,13): warning C4305: инициализация: усечение из "double" в "float"
+C:\code\fluid_simulation\fluid2d\fluid2d.cpp(23,16): warning C4305: =: усечение из "double" в "float"
+  Engine.cpp
+  main.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Terminal.cpp
+  Timer.cpp
+C:\code\fluid_simulation\system\Timer.cpp(5,12): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\code\fluid_simulation\system\Timer.cpp(39,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\code\fluid_simulation\system\Timer.cpp(44,16): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     Создается библиотека C:\code\fluid_simulation\x64\Release\fluid_simulation.lib и объект C:\code\fluid_simulation\x64\Release\fluid_simulation.exp
+  Previous IPDB not found, fall back to full compilation.
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  Создание кода
+  All 186 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+glew32s.lib(glew.obj) : warning LNK4099: "" PDB не найден с "glew32s.lib(glew.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+  fluid_simulation.vcxproj -> C:\code\fluid_simulation\x64\Release\fluid_simulation.exe
